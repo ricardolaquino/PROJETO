@@ -495,7 +495,7 @@ export default function PlantaEditor() {
     return () => window.removeEventListener("keydown", h);
   }, [selected, remove]);
 
-  const equipamentos = useMemo(() => devices.filter((d) => !isArch(d.kind)), [devices]);
+
 
   const numbered = useMemo(() => {
     let n = 0;
