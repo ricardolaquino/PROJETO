@@ -495,7 +495,7 @@ export default function PlantaEditor() {
     return () => window.removeEventListener("keydown", h);
   }, [selected, remove]);
 
-
+ 
 
   const numbered = useMemo(() => {
     let n = 0;
